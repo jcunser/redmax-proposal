@@ -36,7 +36,7 @@
   .cover-meta{display:flex;align-items:center;gap:20px;justify-content:center;flex-wrap:wrap;animation:fadeUp .5s ease .2s both;position:relative;z-index:1}
   .cover-meta-item{font-size:12px;color:var(--muted);letter-spacing:.04em}
   .cover-meta-dot{width:3px;height:3px;border-radius:50%;background:var(--dim)}
-  .cover-scroll{position:absolute;bottom:32px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:6px;animation:fadeUp .5s ease .5s both}
+  .cover-scroll{position:absolute;bottom:32px;left:0;right:0;display:flex;flex-direction:column;align-items:center;gap:6px;animation:fadeUp .5s ease .5s both}
   .cover-scroll span{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
   .cover-scroll-arrow{font-size:16px;color:var(--dim);animation:bounce 2s infinite}
 
@@ -339,11 +339,11 @@
       </div>
       <div class="pp-step p2" onclick="openPhase(1)">
         <div class="pp-dot-wrap"><div class="pp-dot"></div></div>
-        <div class="pp-label"><div class="pp-num">Phase 02</div><div class="pp-name">Implementation</div><div class="pp-time">Months 2-11</div></div>
+        <div class="pp-label"><div class="pp-num">Phase 02</div><div class="pp-name">Implementation</div><div class="pp-time">Month 2+</div></div>
       </div>
       <div class="pp-step p3" onclick="openPhase(2)">
         <div class="pp-dot-wrap"><div class="pp-dot"></div></div>
-        <div class="pp-label"><div class="pp-num">Phase 03</div><div class="pp-name">Partnership</div><div class="pp-time">Month 12+</div></div>
+        <div class="pp-label"><div class="pp-num">Phase 03</div><div class="pp-name">Partnership</div><div class="pp-time">Month 2+</div></div>
       </div>
     </div>
 
@@ -446,7 +446,7 @@
         <div class="phase-accordion-header">
           <div class="phase-badge">Phase 02</div>
           <div class="phase-header-title">Implementation</div>
-          <div class="phase-timing">Months 2-11</div>
+          <div class="phase-timing">Month 2+</div>
           <div class="phase-chevron">&#9660;</div>
         </div>
         <div class="phase-accordion-body"><div class="phase-body-inner"><div class="step-list">
@@ -483,7 +483,7 @@
         <div class="phase-accordion-header">
           <div class="phase-badge">Phase 03</div>
           <div class="phase-header-title">Partnership</div>
-          <div class="phase-timing">Month 12+</div>
+          <div class="phase-timing">Month 2+</div>
           <div class="phase-chevron">&#9660;</div>
         </div>
         <div class="phase-accordion-body"><div class="phase-body-inner"><div class="step-list">
@@ -683,7 +683,7 @@
         </div>
       </div>
       <div class="pricing-card impl">
-        <div class="pricing-phase-col"><div class="pricing-phase-num">Phase 02</div><div class="pricing-phase-name">Implementation</div><div class="pricing-phase-time">Months 2-11 &middot; Per month</div></div>
+        <div class="pricing-phase-col"><div class="pricing-phase-num">Phase 02</div><div class="pricing-phase-name">Implementation</div><div class="pricing-phase-time">Month 2+ &middot; Per month</div></div>
         <div class="pricing-details">
           <div class="pricing-amount-col"><div class="pricing-amount">$2,000<span style="font-size:13px;color:var(--muted)">/mo</span></div><div class="pricing-period">10 months</div></div>
           <div class="pricing-includes">
@@ -694,7 +694,7 @@
         </div>
       </div>
       <div class="pricing-card part">
-        <div class="pricing-phase-col"><div class="pricing-phase-num">Phase 03</div><div class="pricing-phase-name">Partnership</div><div class="pricing-phase-time">Month 12+ &middot; Per month</div></div>
+        <div class="pricing-phase-col"><div class="pricing-phase-num">Phase 03</div><div class="pricing-phase-name">Partnership</div><div class="pricing-phase-time">Month 2+ &middot; Per month</div></div>
         <div class="pricing-details">
           <div class="pricing-amount-col"><div class="pricing-amount">$1,000<span style="font-size:13px;color:var(--muted)">/mo</span></div><div class="pricing-period">Ongoing</div></div>
           <div class="pricing-includes">
